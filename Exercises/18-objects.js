@@ -111,7 +111,7 @@ for (let value in person4) {
 function funPerson(name, age) {
     this.name = name
     this.age = age
-}
+} // not recomended, because this function (constructor) should be a class
 
 let person5 = new funPerson("Brais", 37)
 console.log(person5)
